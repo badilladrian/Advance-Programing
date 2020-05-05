@@ -1,0 +1,55 @@
+python -m pip install mysql-connector
+					INSTALL
+ import mysql.connector
+ -----------------------------------------//-    Start by creating a connection to the database.
+ demo_mysql_connection.py:
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  passwd="yourpassword"
+)
+print(mydb)
+-----------------------------------------//- create a database named "mydatabase"
+import mysql.connector
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  passwd="yourpassword"
+)
+
+mycursor = mydb.cursor()
+mycursor.execute("CREATE DATABASE mydatabase")
+-----------------------------------------//-   Try connecting to the database "mydatabase":
+Try connecting to the database "mydatabase":
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  passwd="yourpassword",
+  database="mydatabase"
+)
+-----------------------------------------//- Create primary key when creating the table:
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  passwd="yourpassword",
+  database="mydatabase"
+)
+mycursor = mydb.cursor()
+mycursor.execute("CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))")
+-----------------------------------------//- From existing Table!
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  passwd="yourpassword",
+  database="mydatabase"
+)
+mycursor = mydb.cursor()
+mycursor.execute("ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")

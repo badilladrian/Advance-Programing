@@ -1,0 +1,27 @@
+Equals: a == b
+    Not Equals: a != b
+    Less than: a < b
+    Less than or equal to: a <= b
+    Greater than: a > b
+    Greater than or equal to: a >= b
+	Return the number of elements in the cars array:
+x = len(cars)
+/-----------------------------------------------//
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+/-----------------------------------------------//
+x = lambda a, b, c: a + b + c
+print(x(5, 6, 2))
+C:\Users\My Name>python demo_lambda3.py
+13
+/-----------------------------------------------//
+def myfunc(n):
+return lambda a : a * n
+mydoubler = myfunc(2)
+print(mydoubler(11))

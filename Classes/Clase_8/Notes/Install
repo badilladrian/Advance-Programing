@@ -1,0 +1,18 @@
+Python
+Command Line (cmd.exe):
+C:\Users\Your Name>python --version
+
+Download PIP + Python + Selenium for webtesting
+
+Python is an interpreted programming language, this means that as a developer you write Python (.py) files in a text editor and then put those files into the python interpreter to be executed.
+
+The way to run a python file is like this on the command line:
+C:\Users\Your Name>python helloworld.py
+
+
+if 5 > 2:
+ print("Five is greater than two!")
+if 5 > 2:
+        print("Five is greater than two!")
+
+

@@ -1,0 +1,49 @@
+class Student(Person):
+  pass
+  #pass statement - to continue without errors
+  	=+=+===========================+=+++++++++++++==+======================+++++++++++++++=
+class Student(Person):
+  def __init__(self, fname, lname):
+#add properties etc.
+
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    Person.__init__(self, fname, lname)
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
+
+class Student(Person):
+ def __init__(self, fname, lname, year):
+  super().__init__(fname, lname)
+  self.graduationyear = year
+  
+  x = Student("Mike", "Olsen", 2019)
+
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
+
+def printname(self):
+ print(self.firstname, self.lastname)
+
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
+
+x = Student("Mike", "Olsen")
+x.printname()
+
+
+class Student(Person):
+  def __init__(self, fname, lname, year):
+    super().__init__(fname, lname)
+    self.graduationyear = year
+
+def welcome(self):
+  print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+	=+=+===========================+=+++++++++++++==+======================+++++++++++++++=
+

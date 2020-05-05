@@ -1,0 +1,99 @@
+Create a variable named x and assign the value 50 to it.
+txt = "Hello World"
+---------------Get the first character of the string txt.
+Return the string without spaces - strip()
+Replace H by J  -   txt.replace("H","J")
+
+---------------check if "apple" is present in the fruits object.
+fruits = ["apple", "banana"]
+if "apple" in fruits:
+  print("Yes, apple is a fruit!")
+
+
+Change the value from "apple" to "kiwi", in the fruits list.
+fruits = ["apple", "banana", "cherry"]
+fruits[0]="Kiwi
+
+fruits.append("orange") - append() Adds to the end list
+--------insert method to add "lemon" as the second item in the fruits list.
+fruits.insert(1,"lemon")
+---------------fruits.remove("banana")
+len(fruits) length
+--------------- WHICH IS THE DIF BETWEEN A LIST, DUPLET/TRUPLET, SETS, ARRAYS AND DICTIONARIES
+
+
+
+
+
+# Python3 code to demonstrate
+# set difference in dictionary list
+# using itertools.filterfalse()
+import itertools
+
+# initializing list
+test_list1 = [{"HpY" : 22}, {"BirthdaY" : 2}, ]
+test_list2 = [{"HpY" : 22}, {"BirthdaY" : 2}, {"Shambhavi" : 2019}]
+
+# printing original lists
+print ("The original list 1 is : " + str(test_list1))
+print ("The original list 2 is : " +  str(test_list2))
+
+# using itertools.filterfalse()
+# set difference in dictionary list
+res = list(itertools.filterfalse(lambda i: i in test_list1, test_list2)) \
+    + list(itertools.filterfalse(lambda j: j in test_list2, test_list1))
+
+# printing result
+print ("The set difference of list is : " +  str(res))
+-----------------------------------------------------------------
+car[object] = object
+
+car has a dictionary.
+Use the pop method to remove "model" from the car dictionary. car.pop("model")
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+Use the clear method to empty the car dictionary.
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+>>> car.clear()
+>>> print(car)
+{}
+-----------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------
+Output :
+
+    The original list 1 is : [{‘HpY’: 22}, {‘BirthdaY’: 2}]
+    The original list 2 is : [{‘HpY’: 22}, {‘BirthdaY’: 2}, {‘Shambhavi’: 2019}]
+    The set difference of list is : [{‘Shambhavi’: 2019}]
+-----------------------------------------------------------------------------
+
+
+# Python code to find the difference in
+# keys in two dictionary
+
+# Initialising dictionary
+dict1= {'key1':'Geeks', 'key2':'For', 'key3':'geeks'}
+dict2= {'key1':'Geeks', 'key2:':'Portal'}
+
+diff = set(dict2) - set(dict1)
+
+# Printing difference in
+# keys in two dictionary
+print(diff)
+
+
+remove(x)
+
+This operation removes element x from the set.
+If element x does not exist, it raises a KeyError.
+The .remove(x) operation returns None.
+
+discard(x)
+
+This operation also removes element x from the set.
+If element x does not exist, it does not raise a KeyError.
+The .discard(x) operation returns None.

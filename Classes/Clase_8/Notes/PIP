@@ -1,0 +1,14 @@
+What is a Package? PIP
+A package contains all the files you need for a module.
+Modules are Python code libraries you can include in your project.
+
+Import and use "camelcase":
+import camelcase
+
+c = camelcase.CamelCase()
+
+txt = "hello world"
+
+print(c.hump(txt))
+
+

@@ -1,0 +1,16 @@
+Uso de Procedimientos Almacenados (semana 10)
+9.1. Definición del concepto de procedimiento almacenado en una base de datos relacional.
+9.2. Explicación de la sintaxis de un procedimiento almacenado en una base de datos relacional.
+9.3. Utilización de funciones en un procedimiento almacenado de una base de datos relacional.
+
+
+
+
+
+9.1. Definición del concepto de procedimiento almacenado en una base de datos relacional.
+
+CREATE PROCEDURE procedure_name
+AS
+sql_statement
+GO;
+

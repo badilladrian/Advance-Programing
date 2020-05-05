@@ -1,0 +1,56 @@
+++++++++++++++++++++++
+demo_list_insert.py:
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+​++++++++++++++++++++++
+demo_tuple_loop.py:
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+++++++++++++++++++++++
+demo_dictionary_change.py:
+thisdict =  {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["year"] = 2018
+print(thisdict)
+++++++++++++++++++++++
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(thisdict[x])
+++++++++++++++++++++++
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+# Note that number 3 is missing in the result
++++++++
+demo_json_from_python_separators.py:
+
+import json
+x = {
+  "name": "John",
+  "age": 30,
+  "married": True,
+  "divorced": False,
+  "children": ("Ann","Billy"),
+  "pets": None,
+  "cars": [
+    {"model": "BMW 230", "mpg": 27.5},
+   {"model": "Ford Edge", "mpg": 24.1}
+  ]
+}
+
+# use . and a space to separate objects, and a space, a = and a space to separate keys from their values:
+print(json.dumps(x, indent=4, separators=(". ", " = ")))
+
+++++++++++++++++++++++

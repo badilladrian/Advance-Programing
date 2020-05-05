@@ -1,0 +1,20 @@
+	thislist = ["apple", "banana", "cherry"]
+	print(thislist)
+
+ thistuple = ("apple", "banana", "cherry")
+print(thistuple[-1])
+
+
+thisset = {"apple", "banana", "cherry"}
+
+thisset.update(["orange", "mango", "grapes"])
+
+print(thisset)
+
+
+react=2300
+jumpcloud=3000
+
+x = ((react+jumpcloud)*560)
+
+print("El total seria en colones:" + x )

@@ -1,0 +1,28 @@
+ que la estrategia de calidad de datos general de la empresa conjugue los tres siguientes aspectos:
+
+Servicios
+Metodología
+Herramientas
+
+
+Objetivos. Los datos que eran introducidos con un propósito concreto ahora están siendo aplicados a otras finalidades. 
+
+Así, puede suceder que la calidad de datos sea relativamente buena para los sistemas transaccionales pero no para sistemas BI o CRM. 
+
+Una factura incorrecta en el plano transaccional afecta sólo a un cliente, en cambio, cuando aparece en un sistema de BI, esta factura puede tener un impacto muy grande para el negocio, 
+llevando a tomar decisiones inadecuadas en diferentes áreas de la organización.
+
+Procesos. Se deben implementar estrategias que permitan alcanzar niveles más altos de calidad de datos para procesos automatizados, 
+ya que los problemas de data quality conllevan dificultades en los diferentes sistemas, con sus consecuencias. 
+Aunque la automatización es algo positivo, ya que reduce los errores humanos, también puede implicar nuevas complicaciones. 
+Y es que, cuando todos los procesos se automatizan y cada vez hay menos intervención humana pueden aparecer nuevos tipos de errores. 
+Por ejemplo, el caso del envío de correspondencia a una dirección equivocada, que una persona podría detectar y cancelar a tiempo, 
+por sentido común, en un entorno automatizado supondría un proceso erróneo, ya que un sistema de mailing tiene muchas ventajas, 
+pero le falta la perspectiva humana que sólo un empleado que conoce a la organización y sus clientes puede aportar.
+
+Servicio. Por último, hay que tener en cuenta que los clientes esperan, cada vez, un mejor servicio.
+Los estándares del mercado se han elevado a la vez que la sofisticación de los consumidores iba en aumento. 
+Hoy día, las empresas no pueden permitirse bajar la guardia en cuestiones relacionadas con la calidad de datos, 
+puesto que la información defectuosa lleva a una pobre gestión del cliente, quien, al ser más exigente y conocer mejor sus derechos, no pasa por alto determinados errores.
+
+

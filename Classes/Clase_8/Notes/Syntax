@@ -1,0 +1,20 @@
+Variables in Python:
+x = 5
+y = "Hello, World!"
+
+
+
+#written in
+#more than just one line
+print("Hello, World!"\)
+
+print(y)
+
+
+"""
+This is a comment
+written in
+more than just one line
+"""
+
+
