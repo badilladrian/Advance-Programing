@@ -6,9 +6,11 @@ class Director():
         self._builder = builder 
         
     def construct_car(self):
+        pass
         
         
     def get_car(self):
+        pass
         
  
 class Builder():

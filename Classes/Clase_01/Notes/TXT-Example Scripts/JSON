@@ -26,13 +26,3 @@ import json
     {"model": "Ford Edge", "mpg": 24.1}
   ]
 }
-
-IT WOULD BE DISPLAYED
-{
-    "name" = "John".
-    "age" = 30.
-    "married" = true.
-    "divorced" = false.
-    "children" = [
-        "Ann".
-        "Billy"

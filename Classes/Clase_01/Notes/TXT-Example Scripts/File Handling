@@ -6,7 +6,6 @@ The open() function takes two parameters; filename, and mode.
 demofile.txt
 Hello! Welcome to demofile.txt
 This file is for testing purposes.
-Good Luck!
 00000000000000000000000000000000000000000000000000000000005555555555555555555555555555555555555555555555555555
 f = open("demofile.txt", "r")
 print(f.read(5))

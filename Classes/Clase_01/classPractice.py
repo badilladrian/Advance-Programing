@@ -19,5 +19,5 @@ print(worker1.email)
 #print(worker2.fullname())
 
 #Todas las funciones de una clase siempre automaticamente reciben SELF como atributo
-#razon cual por hay que cambiar ese llamado a la siguiente linea:
 print(Worker.fullname(worker1))
+#se puede acceder a los attributos de una clase de esta manera tambien

@@ -1,4 +1,4 @@
-PYTHON ?s
+"""
 
 1. Know how to code on whiteboard/white paper.
 2. know the control flow in python like loops, if statement, switch statement etc
@@ -10,17 +10,4 @@ PYTHON ?s
 8. Learn basics of Object Oriented Programming.
 9. Prepare some question for the interviewer.
 10. Know some other fundamental technologies like git etc.
-
-
-my_list=[10,20,30,40,50]
-['Hello', 'Bye', "Adrios"]
-[10, "Bye", True, 10.1]
-
-my_truple= (10,50,30)
-
-my_dict= dic ( {
-		"clave1" : "valor1"
-		"nombre" : "juan"
-		"nickname" : "jnz"} )
-
-my_set={}
+"""
